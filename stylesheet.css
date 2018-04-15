@@ -20,6 +20,9 @@ body {
     #myNavbar{
         display: none!important
     }
+    .col-sm-12{
+    padding-top: 200px;
+    }
 };
 
 /*----------Navigation------------*/
@@ -174,6 +177,7 @@ div.col-lg-6.col_text{
 p{
     margin: 20px;
 }
+
 /*------------------Shops------------------------------*/
 .container_shops{
     padding-right: 10%;
@@ -250,6 +254,7 @@ padding: 20px;
 .fade.in{
     opacity: 0,5;
 }
+
 /*-------------------Events------------------------*/
 .eventsDesktop {
     background: url(pics/photo32.jpg);
@@ -290,6 +295,24 @@ padding: 20px;
 .href{
         text-decoration: none;
 }
+/*-------------------Enquiries------------------------*/
+.container_enquiry {
+
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.text-inq{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.enquiryDesktop{
+    background: url(pics/photo5.jpg);
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
 /*----------------------------Mobile Version------------------------------------------------*/
 @media screen and (max-width: 800px){
 
@@ -349,6 +372,13 @@ padding: 20px;
     }
     .homeMobile {
         background: rgb(151, 211, 126);
+    }
+
+    .fixed-bg {
+        min-height: 200px;
+    }
+    .padding_top {
+        padding-top: 50px;
     }
     #myNavbar.navbar-collapse.collapse.in {
         display: block !important;

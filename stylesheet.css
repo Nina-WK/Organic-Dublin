@@ -250,7 +250,46 @@ padding: 20px;
 .fade.in{
     opacity: 0,5;
 }
+/*-------------------Events------------------------*/
+.eventsDesktop {
+    background: url(pics/photo32.jpg);
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+.events_row {
+    margin-right: 0; /*override*/
+    margin-left: 0;
+    display:flex;
+    justify-content:center;
 
+}
+.events_box {
+    padding: 40px;
+    border: 5px solid transparent;
+    position: relative;
+    z-index: 0px;
+    font-size: 15px;
+}
+.overlay_events {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: .5s ease;
+ }
+.events_text{
+    font-size: 250%;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 1em;
+    text-decoration: none;
+}
+.href{
+        text-decoration: none;
+}
 /*----------------------------Mobile Version------------------------------------------------*/
 @media screen and (max-width: 800px){
 
@@ -349,5 +388,8 @@ padding: 20px;
     }
     nav.navbar {
         background: rgba(28, 33, 28, 1);
+    }
+    .events_row {
+        display: inline-block;
     }
 };

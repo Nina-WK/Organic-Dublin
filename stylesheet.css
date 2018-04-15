@@ -20,9 +20,6 @@ body {
     #myNavbar{
         display: none!important
     }
-    .col-sm-12{
-    padding-top: 200px;
-    }
 };
 
 /*----------Navigation------------*/
@@ -177,142 +174,6 @@ div.col-lg-6.col_text{
 p{
     margin: 20px;
 }
-
-/*------------------Shops------------------------------*/
-.container_shops{
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 2px;
-    margin-top: 15%;
-    z-index: 0;
-}
-.shopsDesktop {
-    background: url(pics/photo26.jpg);
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-.marketsDesktop{
-    background: url(pics/photo20.jpg);
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-.restaurantsDesktop{
-    background: url(pics/photo4.jpg);
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-.small{
-    font-size: 30px;
-    color: white
-}
-.box {
-    background: rgba(28, 33, 28, 1);
-    padding: 30px;
-    font-size: 15px;
-    border: 5px solid transparent;
-    border-radius: 30px;
-    background-clip:padding-box;
-    -webkit-transition: all 1s ease-in-out; /* Safari and Chrome */
-    transition: all 1s ease-in-out;
-    position: relative;
-    z-index: 0px;
-}
-img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: black;
-  }
-  .col-lg-3.box:hover .overlay {
-  opacity: 1;
-  border-radius: 30px;
-}
-.text {
-  color: white;
-  font-size: 15px;
-  position: relative;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.col-lg-12 {
-padding: 20px;
-}
-
-.fade.in{
-    opacity: 0,5;
-}
-
-/*-------------------Events------------------------*/
-.eventsDesktop {
-    background: url(pics/photo32.jpg);
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-.events_row {
-    margin-right: 0; /*override*/
-    margin-left: 0;
-    display:flex;
-    justify-content:center;
-
-}
-.events_box {
-    padding: 40px;
-    border: 5px solid transparent;
-    position: relative;
-    z-index: 0px;
-    font-size: 15px;
-}
-.overlay_events {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transition: .5s ease;
- }
-.events_text{
-    font-size: 250%;
-    color: white;
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    font-weight: lighter;
-    line-height: 1em;
-    text-decoration: none;
-}
-.href{
-        text-decoration: none;
-}
-/*-------------------Enquiries------------------------*/
-.container_enquiry {
-
-    margin-top: 150px;
-    margin-bottom: 200px;
-    margin-left: 350px;
-    margin-right: 350px;
-}
-.text-inq{
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-.enquiryDesktop{
-    background: url(pics/photo5.jpg);
-    background-size: 100% auto;
-    background-attachment: fixed;
-}
-
 /*----------------------------Mobile Version------------------------------------------------*/
 @media screen and (max-width: 800px){
 
@@ -373,13 +234,6 @@ padding: 20px;
     .homeMobile {
         background: rgb(151, 211, 126);
     }
-
-    .fixed-bg {
-        min-height: 200px;
-    }
-    .padding_top {
-        padding-top: 50px;
-    }
     #myNavbar.navbar-collapse.collapse.in {
         display: block !important;
         background: rgba(28, 33, 28, 0.8);
@@ -418,8 +272,5 @@ padding: 20px;
     }
     nav.navbar {
         background: rgba(28, 33, 28, 1);
-    }
-    .events_row {
-        display: inline-block;
     }
 };
